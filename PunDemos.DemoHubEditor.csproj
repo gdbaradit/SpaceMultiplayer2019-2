@@ -291,6 +291,12 @@
  <Reference Include="UnityEditor.AppleTV.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0a2/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>C:/Users/Ratas/Documents/GitHub/SpaceMultiplayer2019-2/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>C:/Users/Ratas/Documents/GitHub/SpaceMultiplayer2019-2/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/Ratas/Documents/GitHub/SpaceMultiplayer2019-2/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -305,12 +311,6 @@
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
  <HintPath>C:/Users/Ratas/Documents/GitHub/SpaceMultiplayer2019-2/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
- </Reference>
- <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/Ratas/Documents/GitHub/SpaceMultiplayer2019-2/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
- </Reference>
- <Reference Include="websocket-sharp">
- <HintPath>C:/Users/Ratas/Documents/GitHub/SpaceMultiplayer2019-2/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>C:/Users/Ratas/Documents/GitHub/SpaceMultiplayer2019-2/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

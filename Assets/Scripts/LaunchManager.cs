@@ -10,6 +10,15 @@ public class LaunchManager : MonoBehaviourPunCallbacks
     public GameObject ConnectionStatusPanel;
     public GameObject LobbyPannel;
 
+
+    #region Unity Methods
+
+
+    private void Awake()
+    {
+        PhotonNetwork.AutomaticallySyncScene = true;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,11 +51,14 @@ public class LaunchManager : MonoBehaviourPunCallbacks
     {
         PhotonNetwork.JoinRandomRoom();
     }
+
+    #endregion
+
     #region Photon Callbacks
 
     public override void OnConnectedToMaster()
     {
-        Debug.Log(PhotonNetwork.NickName + " Is Connect to Photon server");
+        Debug.Log(PhotonNetwork.NickName + " Is Connect to Photon server ");
         LobbyPannel.SetActive(true);
         ConnectionStatusPanel.SetActive(false);
     }
@@ -64,6 +76,8 @@ public class LaunchManager : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         Debug.Log(PhotonNetwork.NickName + " is joined to " + PhotonNetwork.CurrentRoom.Name);
+        PhotonNetwork.LoadLevel("SampleScene");
+
     }
 
     public override void OnPlayerEnteredRoom(Player newPlayer)

@@ -68,6 +68,9 @@
      <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
      <Compile Include="Assets\Scripts\LaunchManager.cs" />
      <Compile Include="Assets\Scripts\PLayerNameImputManager.cs" />
+     <Compile Include="Assets\Scripts\PlayerControl.cs" />
+     <Compile Include="Assets\Scripts\PlayerSetup.cs" />
+     <Compile Include="Assets\Scripts\ShipGameManager.cs" />
      <Compile Include="Assets\bullet.cs" />
      <Compile Include="Assets\controlDeMovimiento.cs" />
      <Compile Include="Assets\disparando.cs" />
@@ -299,6 +302,12 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0a2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>C:/Users/Ratas/Documents/GitHub/SpaceMultiplayer2019-2/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>C:/Users/Ratas/Documents/GitHub/SpaceMultiplayer2019-2/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Analytics.Editor">
  <HintPath>C:/Users/Ratas/Documents/GitHub/SpaceMultiplayer2019-2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
@@ -307,12 +316,6 @@
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>C:/Users/Ratas/Documents/GitHub/SpaceMultiplayer2019-2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
- </Reference>
- <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/Ratas/Documents/GitHub/SpaceMultiplayer2019-2/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
- </Reference>
- <Reference Include="websocket-sharp">
- <HintPath>C:/Users/Ratas/Documents/GitHub/SpaceMultiplayer2019-2/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0a2/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
